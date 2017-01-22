@@ -92,18 +92,23 @@ z-index: -1;
 /*
  * Section Styles
 */
-section.intro, section.contact {
+.intro, 
+.contact {
   padding: 40px;
 }
 
-section.intro {
+.intro {
   background: #fff;
 
 }
-section.contact {
+.contact {
   background: #e6e9ea;
   opacity: 0.5;
+
+  -webkit-animation: fadeout 1s 5s forwards;
+          animation: fadeout 1s 5s forwards;
 }
+
 
 /*
  * Aside Styles
